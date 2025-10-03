@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ocean Professional Portfolio</title>
+  <meta name="description" content="Clean, modern portfolio with Ocean Professional styling." />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">
+        <span class="brand-mark" aria-hidden="true">•</span>
+        <span class="brand-name">Planto.</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="nav-links" role="navigation">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1 class="hero-title">Breathe Natural</h1>
+          <p class="hero-subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Explore</a>
+            <a href="#projects" class="btn btn-ghost">
+              <span class="play-icon" aria-hidden="true">▶</span>
+              Live Demo
+            </a>
+          </div>
+          <div class="hero-review">
+            <img src="./img/avatar-1.png" alt="Reviewer avatar" class="avatar" onerror="this.style.display='none'">
+            <div class="review-meta">
+              <div class="reviewer">Alina Patel</div>
+              <div class="stars" aria-label="4.5 out of 5 stars">
+                <span>★★★★★</span>
+              </div>
+              <p class="review-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="../assets/figmaimages/figma_image_22_261.png" alt="Featured plant" class="hero-image">
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Our Trendy Plants</h2>
+        </div>
+        <div class="grid projects-grid">
+          <article class="card">
+            <div class="card-media ring">
+              <img src="../assets/figmaimages/figma_image_22_333.png" alt="Calathea plant" />
+            </div>
+            <h3 class="card-title">Calathea plant</h3>
+            <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <div class="card-cta">
+              <span class="price">Rs. 309/-</span>
+              <a class="btn btn-outline" href="#contact">Buy Now</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media ring">
+              <img src="../assets/figmaimages/figma_image_22_335.png" alt="Desk plant" onerror="this.style.display='none'"/>
+            </div>
+            <h3 class="card-title">Desk plant</h3>
+            <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <div class="card-cta">
+              <span class="price">Rs. 359/-</span>
+              <a class="btn btn-outline" href="#contact">Buy Now</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media ring">
+              <img src="../assets/figmaimages/figma_image_22_337.png" alt="Calathea ai plant" onerror="this.style.display='none'"/>
+            </div>
+            <h3 class="card-title">Calathea ai plant</h3>
+            <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <div class="card-cta">
+              <span class="price">Rs. 399/-</span>
+              <a class="btn btn-outline" href="#contact">Buy Now</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media ring">
+              <img src="../assets/figmaimages/figma_image_22_338.png" alt="Calat O2 plant" onerror="this.style.display='none'"/>
+            </div>
+            <h3 class="card-title">Calat O2 plant</h3>
+            <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <div class="card-cta">
+              <span class="price">Rs. 659/-</span>
+              <a class="btn btn-outline" href="#contact">Buy Now</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media ring">
+              <img src="../assets/figmaimages/figma_image_22_303.png" alt="Small Desk AI Plant" />
+            </div>
+            <h3 class="card-title">For Small Desk Ai Plant</h3>
+            <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <div class="card-cta">
+              <span class="price">Rs. 599/-</span>
+              <a class="btn btn-outline" href="#contact">Buy Now</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container about-inner">
+        <div class="about-visual">
+          <div class="about-blob"></div>
+          <img src="../assets/figmaimages/figma_image_22_418.png" alt="Collection" class="about-image">
+        </div>
+        <div class="about-content">
+          <h2 class="section-title">We Have Small And Best O2 Plants Collection’s</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <div class="about-pager" aria-label="slide controls">
+            <button class="circle" aria-label="Prev"></button>
+            <span class="pager-text">01/04</span>
+            <button class="circle" aria-label="Next"></button>
+          </div>
+          <div class="about-actions">
+            <a href="#projects" class="btn btn-primary">Explore</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-inner">
+        <div class="contact-brand">
+          <div class="brand-row">
+            <span class="brand-icon" aria-hidden="true">🌿</span>
+            <span class="brand-name">Planto.</span>
+          </div>
+          <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="socials">
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="Twitter">TW</a>
+            <a href="#" aria-label="LinkedIn">LI</a>
+          </div>
+        </div>
+
+        <div class="contact-links">
+          <h3 class="footer-title">Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Plant Type’s</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+
+        <div class="contact-subscribe">
+          <h3 class="footer-title">For Every Update’s</h3>
+          <form class="subscribe" onsubmit="return false;">
+            <input type="email" placeholder="Enter Email..." aria-label="Email address" required />
+            <button type="submit" class="btn btn-dark">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer-meta">Planto © All right reserve</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container small">© 2025 Ocean Professional Portfolio</div>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+</html>
